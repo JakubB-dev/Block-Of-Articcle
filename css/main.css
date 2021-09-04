@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.quizzesBox{
+    width: 30vw;
+    border-radius: 4px;
+    box-shadow: rgb(220, 220, 220) 1px 1px 10px;
+    margin: 0 auto;
+}
+
+img.thumbnail{
+    width: 100%;
+    border-radius: 4px;
+}
+
+a.quizLink{
+    text-decoration: none;
+    color: rgb(73, 126, 224);
+    font-size: 110%;
+    transition: .3s color;
+}
+
+a.quizLink:hover{
+    color: rgb(126, 203, 255);
+}
+
+h3.quizTitle{
+    margin-bottom: 5px;
+}
+
+div.text{
+    margin: 20px;
+    text-align: justify;
+}
+
+p.quizDesc{
+    margin: 10px 0;
+    line-height: 25px;
+}
+
+h3.rating{
+    font-size: 120%;
+    margin: 10px 0;
+}
+
+small.authorAndTime{
+    color: gray;
+    margin: 5px 0;
+}
+
+/* Added to quizBox.php */
+
+div.text{
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+h3.quizName{
+    text-align: center;
+}
+
+small.quizAuDa{
+    color: gray;
+    text-align: center;
+    margin: 0 auto;
+}
+
+p.quizDesc{
+    text-align: justify;
+    line-height: 18px;
+    margin: 10px;
+}
+
+div.quizStats{
+    padding-top: 20px;
+}
+
+div.quizStatBox{
+    width: 24%;
+    text-align: center;
+    display: inline-block;
+}
+
+/* Added to lotto.php */
+
+body{
+    text-align: center;
+}
+
+table.numbersTable{
+    width: 40vw;
+    margin: 0 auto;
+}
+
+table, td{
+    text-align: center;
+    font-size: 20px;
+}
+
+.numbersTable tr td{
+    padding: 10px;
+}
